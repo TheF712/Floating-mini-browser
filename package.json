@@ -1,0 +1,31 @@
+{
+  "name": "electron-browser",
+  "version": "0.1b",
+  "description": "Floating mini browser made with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --mac"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.df.mini-floating-browser",
+    "productName": "Mini Floating Browser",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "icon.icns"
+    },
+    "win": {
+      "icon": "icon.ico",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    }
+  }
+}
