@@ -1,6 +1,6 @@
 {
   "name": "electron-browser",
-  "version": "0.1b",
+  "version": "0.1.0",
   "description": "Floating mini browser made with Electron",
   "main": "main.js",
   "scripts": {
